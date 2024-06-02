@@ -36,7 +36,7 @@ def main():
     result=""
     if st.button("Predict"):
         result=predict_medical_insurance_cost(int(age),int(sex),float(bmi),int(children),int(smoker),int(region))
-    st.success('The approximate medical insurance cost  is {} rupess only'.format(int(result)))
+    st.success('The approximate medical insurance cost  is {} rupess only'.format(result))
     if st.button("About"):
         st.text("Lets LEarn")
         st.text("Built with Streamlit")
