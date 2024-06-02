@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import pandas as pd
 import streamlit as st 
-
+import sklearn
 
 pickle_in = open("linear_regression.pkl","rb")
 linear_regression=pickle.load(pickle_in)
