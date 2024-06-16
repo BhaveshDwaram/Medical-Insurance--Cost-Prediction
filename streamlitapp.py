@@ -70,8 +70,8 @@ def main():
         st.success(f'The approximate medical insurance premium cost per year is {raw_text} {result:.2f}.')
 
     if st.button("About"):
-        st.text("Let's Learn")
-        st.text("Built with Streamlit")
+        st.text("Built by Bhavesh Dwaram")
+        st.text("NIE Mysuru")
 
 if __name__ == '__main__':
     main()
