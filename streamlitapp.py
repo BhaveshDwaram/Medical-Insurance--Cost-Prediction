@@ -236,7 +236,7 @@ def main():
                 st.markdown(f'<div class="result-box">The approximate medical insurance premium cost per year is {raw_text} {result:.2f}.</div>', unsafe_allow_html=True)
 
     if st.button("Built-By"):
-        st.markdown('<div class="about-box">Built by Animesh Kumar ,Bhavesh Dwaram,Nishanth Hebbar, Damodhar <br>NIE Mysuru</div>', unsafe_allow_html=True)
+        st.markdown('<div class="about-box">Built by Bhavesh Dwaram </br>NIE Mysuru</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="footer">Medical Insurance Prediction App</div>', unsafe_allow_html=True)
 
